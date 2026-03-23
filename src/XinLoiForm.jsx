@@ -97,7 +97,6 @@ const XinLoiForm = () => {
         </>
     );
 
-    // --- MÀN HÌNH 4: TÂM THƯ BUỒN (DARK MODE) ---
     if (showSadLetter) {
         return (
             <div className="xinloi-container dark-bg">
@@ -112,6 +111,7 @@ const XinLoiForm = () => {
                         <br />
                         <p><i>Xin lỗi vì tất cả, cậu thực sự là người quan trọng nhất , nếu không có cậu , 2 lần , tớ vẫn không thức tỉnh lên nổi , không mục tiêu , chỉ chơi vơi trong cuộc đời vô định , cuộc đời tớ thực sự chả là gì nếu không gặp được cậu</i></p>
                         <p><i>Tớ hiện đang cố phát triển hơn mỗi ngày , điện thoại cũng chẳng còn game , mỗi ngày cố học hành để đến Nhật , tớ thực sự đang có động lực, tớ nghĩ lần này nó lớn nhất trong cuộc đời rồi , cảm ơn cậu rất nhiều!</i></p>
+                        <p><i>Tớ cũng nhìn qua bức ảnh cậu đi chơi với Chika ngày 5/3 rồi nhé , cậu xinh lắm ,mỗi lần nhìn bức ảnh cuối , tớ thề là tớ rất thổn thức và đau lòng , tim như đập chậm , ông cha thật nói không sai , bông hoa xinh đẹp nhất là bông hoa không thuộc về ai . Cho tớ xin lỗi Chika nữa , thật sự xin lỗi cậu ấy vì đã không thể chăm sóc cậu tốt</i></p>
                         <p><i>Cậu thực sự thay đổi một con người !</i></p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ const XinLoiForm = () => {
 
                     <h2 className="title">Thư Xin Lỗi Khẩn Cấp... 💌</h2>
                     <div className="message-content">
-                        <p><b>Gửi cậu - người tớ thương nhất,</b></p>
+                        <p><b>Gửi cậu - người tớ thương nhất nha! ❤️</b></p>
                         <p>Mấy hôm nay chiến tranh lạnh, tớ ăn không ngon ngủ không yên. Tớ biết mình đã vô tâm, nói những câu làm cậu buồn và tủi thân. Thật sự tớ rất hối hận. 😞</p>
                         <p>Cậu là điều tuyệt vời nhất mà tớ có. Tớ không muốn vì chút nông nổi mà đánh mất nụ cười của cậu. Cho tớ cơ hội sửa sai nhé, tớ hứa sẽ cất gọn cái tôi đi và ôm cậu thật chặt!</p>
                         <p><i>Tha lỗi cho Baka này nha?</i></p>

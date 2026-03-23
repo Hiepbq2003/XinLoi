@@ -187,12 +187,18 @@ body { overflow: hidden; }
   background: rgba(255, 71, 87, 0.8);
 }
 
-.dark-text::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05); 
+/* Tinh chỉnh lại chữ của Tâm Thư cho sáng rực rỡ và dễ đọc hơn */
+.dark-text { 
+    color: #ffffff; /* Đổi sang màu trắng tinh khôi luôn */
+    text-align: left;
+    font-weight: 500; /* Tăng độ dày nét chữ lên một xíu cho rõ ràng */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Thêm đổ bóng đen phía sau chữ để nó nổi bần bật lên nền kính mờ */
+    letter-spacing: 0.3px; /* Kéo giãn khoảng cách các chữ ra tí xíu cho dễ đọc */
 }
-.dark-text::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3); 
+
+/* Bonus thêm: Đổi màu riêng cho mấy thẻ in nghiêng (<i>) ở cuối thư thành màu hồng phấn cho nó cắn rứt lương tâm 🥺 */
+.dark-text i {
+    color: #ffdae0; 
+    font-weight: 600;
 }
-.dark-text::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
-}
+
